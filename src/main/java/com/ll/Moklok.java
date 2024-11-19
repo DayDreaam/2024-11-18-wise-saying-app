@@ -1,12 +1,12 @@
 package com.ll;
 
 public class Moklok {
-    int index;
+    int id;
     String author;
-    String saying;
-    public Moklok(int index, String author, String saying){
-        this.index = index;
+    String content;
+    public Moklok(int id, String author, String content){
+        this.id = id;
         this.author = author;
-        this.saying = saying;
+        this.content = content;
     }
 }
